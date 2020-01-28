@@ -15,7 +15,6 @@ html {
 
 a {
     background-color: white;
-    width: auto;
     font-weight: bold;
 }
 
@@ -31,12 +30,11 @@ body {
     color: #393e41;
     text-align: center;
     margin: 0;
-    padding: 0;
-    min-height: 100vh;
 }
 
 .dark-block {
     background-color: #f7f5ef;
+    text-align: center;
     padding: 1em;
 }
 
@@ -47,9 +45,7 @@ body {
 
 #bio {
     max-width: 30em;
-    text-align: center;
-    padding: 1em 0;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 nav {
@@ -57,7 +53,6 @@ nav {
     max-width: 15em;
     margin: 0.5em auto;
     justify-content: space-between;
-    text-align: center;
 }
 
 #profile {
@@ -80,6 +75,7 @@ h2 {
 h3 {
     font-size: 1.5em;
     margin-bottom: 0;
+    min-width: 15em;
 }
 
 .project {
@@ -88,12 +84,20 @@ h3 {
     text-align: left;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.project-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .thumbnail {
     max-width: 15em;
-    margin: auto;
-    padding: 1em;
+    margin: 0 auto;
+    padding: 1em 1em 0 1em;
 }
 
 .thumbnail-image {
@@ -103,5 +107,5 @@ h3 {
 }
 
 .description {
-    width: 80%;
+    flex: 1;
 }
