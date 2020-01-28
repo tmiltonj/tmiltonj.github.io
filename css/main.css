@@ -35,12 +35,12 @@ body {
 .dark-block {
     background-color: #f7f5ef;
     text-align: center;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .light-block {
     background-color: #fefefe;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 #bio {
@@ -69,13 +69,12 @@ h1 {
 
 h2 {
     font-size: 2.2em;
-    margin: 0;
+    margin-top: 0;
 }
 
 h3 {
     font-size: 1.5em;
     margin-bottom: 0;
-    min-width: 15em;
 }
 
 .project {
